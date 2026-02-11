@@ -1,5 +1,6 @@
-from collections import Counter, defaultdict
+#Python code on Byte pair Encoding
 
+from collections import Counter, defaultdict
 
 def get_stats(vocab):
     """Count frequency of symbol pairs"""
