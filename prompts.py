@@ -5,7 +5,7 @@
 from google import genai
 
 # Create client using API key
-client = genai.Client(api_key="AIzaSyAHyZT7c0OdhuYapH58FuTPfYjwkG8zrQM")
+client = genai.Client(api_key="API_Key")
 
 
 # Function for Zero-Shot Prompting
