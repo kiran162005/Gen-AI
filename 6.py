@@ -1,4 +1,5 @@
 from transformers import pipeline
+
 # Load the sentiment analysis pipeline from Hugging Face
 sentiment_pipeline = pipeline("sentiment-analysis")
 
@@ -15,6 +16,7 @@ feedbacks = [
     "The food was okay, but the service was slow.",
     "I had a fantastic time at the hotel. Everything was perfect!"
 ]
-+for feedback in feedbacks:
+
+for feedback in feedbacks:
     sentiment = analyze_sentiment(feedback)
     print(f"Text: {feedback}\nSentiment: {sentiment['label']}, Confidence: {sentiment['score']:.2f}\n")
